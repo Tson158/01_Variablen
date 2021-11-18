@@ -23,7 +23,18 @@
 
 /****** 03 Deklaration + Wertzuweisung II ********/
 
-let firstName, familyName;
-firstName = prompt("Bitte Vornamen eingeben")
-familyName = prompt("Bitte Nachnamen eingeben");
-console.log(firstName + " " + familyName);
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben")
+// familyName = prompt("Bitte Nachnamen eingeben");
+// console.log(firstName + " " + familyName);
+
+// JS ist eine untypisierte Sprache! | untyped
+
+let test;
+test = "Hey";                  //---> Strings
+test = 2;
+test = true;
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+
+
