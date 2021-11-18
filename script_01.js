@@ -30,11 +30,36 @@
 
 // JS ist eine untypisierte Sprache! | untyped
 
-let test;
-test = "Hey";                  //---> Strings
-test = 2;
-test = true;
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// let test;
+// test = "Hey";                  //---> Strings
+// test = 2;
+// test = true;
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
+// const test = "hey"; // Variablen mit Konstantem Inhalt
+// test = "hey du"  // KEINE neue Zuweisung nur LZ möglich!
+// console.log("inhalt: " + test);
 
+/***** Beispiel *****/
+
+// Deklaration
+
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung
+
+ageJohn = 25;
+ageMark = 30;
+
+//  Berechnung
+
+let year = 2021;
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+//  Ausgabe
+
+console.log("birthYearJohn" + birthYearJohn);
+console.log("birthYearMark" + birthYearMark);
