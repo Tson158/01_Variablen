@@ -48,18 +48,22 @@
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
 
+let date = new Date();   //TimeStamp (Zeitstempel)
+console.log(date);
+console.log(date.getFullYear());
+
 // Wertzuweisung
 
-ageJohn = 25;
-ageMark = 30;
+// ageJohn = 25;
+// ageMark = 30;
 
 //  Berechnung
 
-let year = 2021;
-birthYearJohn = year - ageJohn;
-birthYearMark = year - ageMark;
+// let year = 2021;
+// birthYearJohn = year - ageJohn;
+// birthYearMark = year - ageMark;
 
 //  Ausgabe
 
-console.log("birthYearJohn" + birthYearJohn);
-console.log("birthYearMark" + birthYearMark);
+// console.log("birthYearJohn" + birthYearJohn);
+// console.log("birthYearMark" + birthYearMark);
