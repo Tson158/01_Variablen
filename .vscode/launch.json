@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "https://github.com/Tson158",
+            "request": "launch",
+            "url": "https://github.com/Tson158"
+        }
+    ]
+}
